@@ -1,5 +1,5 @@
 FROM node:12-alpine
 
-WORKDIR /local
+WORKDIR /app
 
 RUN npm install apidoc -g

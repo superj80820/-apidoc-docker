@@ -17,5 +17,5 @@ $ docker run -it -v ${PWD}:/local superj80820/apidoc-docker [Your apidoc command
 eg.
 
 ```bash
-$ docker run -it -v ${PWD}:/local superj80820/apidoc-docker apidoc -i server/route -o ./public
+$ docker run -it -v ${PWD}:/app superj80820/apidoc-docker apidoc -i ./ -o ./public
 ```
